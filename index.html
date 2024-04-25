@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">to-do app</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Login Page</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="addto-do.html">Add Todo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="searchtodo.html">Search Todo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="viewalltodo.html">View all Todo</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <br>
+
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <label for="" class="form-label">Username</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <label for="" class="form-label">Password</label>
+                                <input type="password" name="" id="" class="form-control">
+                            </div>
+                            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <button class="btn btn-success">login</button>
+                            </div>
+                            <a href="register.html" class="link-primary">New users click here</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
